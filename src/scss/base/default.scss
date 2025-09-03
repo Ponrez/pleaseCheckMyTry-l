@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Graphik LCG";
+  src: url("../../fonts/GraphikLCG-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Graphik LCG";
+  src: url("../../fonts/GraphikLCG-Semibold.woff2") format("woff2");
+  font-weight: 600;
+}
+:root {
+  --font-family: "Graphik LCG", sans-serif;
+  --primary: #2a6cea;
+  --black: #191c1f;
+  --dark-gray: #5e646a;
+  --gray: #83898f;
+  --mid-grey: #c2c8cd;
+  --light-gray: #eceff2;
+  --extralight-gray: #f6f8fa;
+  --white: #fff;
+  --dangerous: #f13636;
+  --green-success: #25cd82;
+  --primary-hover: #397dff;
+  --primary-disabled: #abcae6;
+}
+body {
+  font-family: var(--font-family);
+}
+body.lock {
+  overflow: hidden;
+}
+.container {
+  // max-width: 1256px;
+  max-width: 1250px;
+  // max-width: 1239px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

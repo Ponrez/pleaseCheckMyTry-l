@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Тестовое задание</title>
+	<link rel="stylesheet" href="./css/main.css" />
+	<link rel="stylesheet" href="./libs/swiper/swiper-bundle.min.css">
+</head>
+
+<body>
+	<header class="header">
+  <div class="container header__container">
+    <div class="header__content">
+      <div class="header__top">
+        <a href="#" class="header__logo-wrapper">
+          <picture><source srcset="./img/header/header-logo.webp" type="image/webp"><img src="./img/header/header-logo.png" alt="Логотип" class="header__logo header__logo--full"></picture>
+          <picture><source srcset="./img/header/header-logo-black.webp" type="image/webp"><img src="./img/header/header-logo-black.png" alt="Логотип" class="header__logo header__logo--mini"></picture>
+        </a>
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__item">
+              <a href="#how-work" class="header__link">Как это работает</a>
+            </li>
+            <li class="header__item">
+              <a href="#third" class="header__link">3-й блок</a>
+            </li>
+            <li class="header__item">
+              <a href="#faq" class="header__link">Вопросы и ответы</a>
+            </li>
+            <li class="header__item">
+              <a href="#form" class="header__link">Форма</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div class="header__content-mid">
+        <div class="header__title-wrapper">
+          <h1 class="header__title">Говорят, никогда не поздно сменить профессию</h1>
+        </div>
+        <h2 class="header__subtitle">Сделай круто тестовое задание и у тебя получится</h2>
+        <div class="header__btn-wrapper">
+          <button class="header__btn">Проще простого!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+	<main>
+		<section class="how-work" id="how-work">
+  <div class="container">
+    <h2 class="how-work__title">Как это работает</h2>
+    <div class="how-work__cards">
+      <div class="how-work__card">
+        <div class="how-work__card-img-wrapper">
+          <img src="./img/how-it-work/waiting.svg" alt="Ожидание" class="how-work__card-img">
+        </div>
+        <div class="how-work__card-content">
+          <h3 class="how-work__card-title">Прочитай задание внимательно</h3>
+          <div class="how-work__card-descr">Думаю у тебя не займет это больше двух-трех минут</div>
+        </div>
+      </div>
+      <div class="how-work__card">
+        <div class="how-work__card-img-wrapper">
+          <img src="./img/how-it-work/delivery-truck.svg" alt="Доставка" class="how-work__card-img">
+        </div>
+        <div class="how-work__card-content">
+          <h3 class="how-work__card-title">Изучи весь макет заранее</h3>
+          <div class="how-work__card-descr">Подумай как это будет работать на разных разрешениях и при скролле</div>
+        </div>
+      </div>
+      <div class="how-work__card">
+        <div class="how-work__card-img-wrapper">
+          <img src="./img/how-it-work/secure.svg" alt="Безопасность" class="how-work__card-img">
+        </div>
+        <div class="how-work__card-content">
+          <h3 class="how-work__card-title">Сделай хорошо</h3>
+          <div class="how-work__card-descr">Чтобы мы могли тебе доверить подобные задачи в будущем</div>
+        </div>
+      </div>
+      <div class="how-work__card">
+        <div class="how-work__card-img-wrapper">
+          <img src="./img/how-it-work/money-bags.svg" alt="Деньги" class="how-work__card-img">
+        </div>
+        <div class="how-work__card-content">
+          <h3 class="how-work__card-title">Получи предложение</h3>
+          <div class="how-work__card-descr">Ну тут все просто, не я придумал правила, но думаю так и будет)))</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+		<section class="third" id="third">
+  <div class="container">
+    <div class="third__wrapper">
+      <div class="third__content">
+        <h2 class="third__title">Круто, ты дошел до третьего блока</h2>
+        <div class="third__descr">63% опрошенных пользовались кредитами из-за того, что не могли покрыть непредвиденные
+          расходы свыше 15 000 ₽.</div>
+        <div class="third__descr">Доступ к заработанным деньгам помогает отказаться от кредитов и экономить деньги на
+          процентах и штрафах.
+        </div>
+      </div>
+      <div class="third__wrapper-img">
+        <picture><source srcset="./img/third/person.webp" type="image/webp"><img src="./img/third/person.png" alt="Статистика за неделю" class="third__img"></picture>
+      </div>
+    </div>
+  </div>
+</section>
+		<section class="reviews">
+  <div class="container">
+    <h2 class="reviews__title">Отзывы</h2>
+    <div class="reviews__swiper-container">
+      <div class="swiper reviews__swiper">
+        <div class="swiper-wrapper reviews__swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="reviews__card">
+              <div class="reviews__card-top">
+                <div class="reviews__card-img-wrapper">
+                  <picture><source srcset="./img/reviews/1.webp" type="image/webp"><img src="./img/reviews/1.png" alt="Фото человека" class="reviews__card-img"></picture>
+                </div>
+                <div class="reviews__card-content">
+                  <div class="reviews__card-name">Константинов Михаил Павлович</div>
+                  <div class="reviews__card-city">Санкт-Петербург</div>
+                </div>
+              </div>
+              <div class="reviews__card-descr">
+                Каждый из нас понимает очевидную вещь: перспективное планирование предоставляет широкие возможности для
+                анализа
+                существующих паттернов поведения. В своём стремлении улучшить пользовательский опыт мы
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="reviews__card">
+              <div class="reviews__card-top">
+                <div class="reviews__card-img-wrapper">
+                  <picture><source srcset="./img/reviews/2.webp" type="image/webp"><img src="./img/reviews/2.png" alt="Фото человека" class="reviews__card-img"></picture>
+                </div>
+                <div class="reviews__card-content">
+                  <div class="reviews__card-name">Иван Иванов</div>
+                  <div class="reviews__card-city">Санкт-Петербург</div>
+                </div>
+              </div>
+              <div class="reviews__card-descr">
+                Каждый из нас понимает очевидную вещь: перспективное планирование предоставляет широкие возможности для
+                анализа
+                существующих паттернов поведения. В своём стремлении улучшить пользовательский опыт мы упускаем, что
+                активно
+                развивающиеся страны третьего мира призваны к ответу.
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide ">
+            <div class="reviews__card">
+              <div class="reviews__card-top">
+                <div class="reviews__card-img-wrapper">
+                  <picture><source srcset="./img/reviews/3.webp" type="image/webp"><img src="./img/reviews/3.png" alt="Фото человека" class="reviews__card-img"></picture>
+                </div>
+                <div class="reviews__card-content">
+                  <div class="reviews__card-name">Артем Корнилов</div>
+                  <div class="reviews__card-city">Самара</div>
+                </div>
+              </div>
+              <div class="reviews__card-descr">
+                Каждый из нас понимает очевидную вещь: перспективное планирование предоставляет широкие возможности для
+                анализа
+                существующих паттернов поведения.
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="reviews__card">
+              <div class="reviews__card-top">
+                <div class="reviews__card-img-wrapper">
+                  <picture><source srcset="./img/reviews/1.webp" type="image/webp"><img src="./img/reviews/1.png" alt="Фото человека" class="reviews__card-img"></picture>
+                </div>
+                <div class="reviews__card-content">
+                  <div class="reviews__card-name">Константинов Михаил Павлович</div>
+                  <div class="reviews__card-city">Санкт-Петербург</div>
+                </div>
+              </div>
+              <div class="reviews__card-descr">
+                Каждый из нас понимает очевидную вещь: перспективное планирование предоставляет широкие возможности для
+                анализа
+                существующих паттернов поведения. В своём стремлении улучшить пользовательский опыт мы
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="reviews__card">
+              <div class="reviews__card-top">
+                <div class="reviews__card-img-wrapper">
+                  <picture><source srcset="./img/reviews/2.webp" type="image/webp"><img src="./img/reviews/2.png" alt="Фото человека" class="reviews__card-img"></picture>
+                </div>
+                <div class="reviews__card-content">
+                  <div class="reviews__card-name">Иван Иванов</div>
+                  <div class="reviews__card-city">Санкт-Петербург</div>
+                </div>
+              </div>
+              <div class="reviews__card-descr">
+                Каждый из нас понимает очевидную вещь: перспективное планирование предоставляет широкие возможности для
+                анализа
+                существующих паттернов поведения. В своём стремлении улучшить пользовательский опыт мы упускаем, что
+                активно
+                развивающиеся страны третьего мира призваны к ответу.
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide ">
+            <div class="reviews__card">
+              <div class="reviews__card-top">
+                <div class="reviews__card-img-wrapper">
+                  <picture><source srcset="./img/reviews/3.webp" type="image/webp"><img src="./img/reviews/3.png" alt="Фото человека" class="reviews__card-img"></picture>
+                </div>
+                <div class="reviews__card-content">
+                  <div class="reviews__card-name">Артем Корнилов</div>
+                  <div class="reviews__card-city">Самара</div>
+                </div>
+              </div>
+              <div class="reviews__card-descr">
+                Каждый из нас понимает очевидную вещь: перспективное планирование предоставляет широкие возможности для
+                анализа
+                существующих паттернов поведения.
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="reviews__card">
+              <div class="reviews__card-top">
+                <div class="reviews__card-img-wrapper">
+                  <picture><source srcset="./img/reviews/1.webp" type="image/webp"><img src="./img/reviews/1.png" alt="Фото человека" class="reviews__card-img"></picture>
+                </div>
+                <div class="reviews__card-content">
+                  <div class="reviews__card-name">Константинов Михаил Павлович</div>
+                  <div class="reviews__card-city">Санкт-Петербург</div>
+                </div>
+              </div>
+              <div class="reviews__card-descr">
+                Каждый из нас понимает очевидную вещь: перспективное планирование предоставляет широкие возможности для
+                анализа
+                существующих паттернов поведения. В своём стремлении улучшить пользовательский опыт мы
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination reviews__swiper-pagination"></div>
+      </div>
+      <div class="reviews__swiper-btns">
+        <div class="reviews__swiper-button-prev">
+          <svg width="16" height="32" viewBox="0 0 16 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M14.8387 2.27597C15.0816 2.0245 15.216 1.6877 15.2129 1.33811C15.2099 0.988509 15.0697 0.654093 14.8225 0.406882C14.5753 0.159671 14.2408 0.0194457 13.8912 0.0164078C13.5417 0.0133699 13.2048 0.147762 12.9534 0.39064L2.05738 11.2866C0.807572 12.5368 0.105469 14.2322 0.105469 16C0.105469 17.7677 0.807572 19.4631 2.05738 20.7133L12.9534 31.6093C13.2048 31.8522 13.5417 31.9866 13.8912 31.9835C14.2408 31.9805 14.5753 31.8403 14.8225 31.5931C15.0697 31.3459 15.2099 31.0114 15.2129 30.6618C15.216 30.3122 15.0816 29.9754 14.8387 29.724L3.94271 18.828C3.19283 18.0779 2.77157 17.0606 2.77157 16C2.77157 14.9393 3.19283 13.9221 3.94271 13.172L14.8387 2.27597Z"
+              fill="#C2C8CD" />
+          </svg>
+        </div>
+        <div class="reviews__swiper-button-next">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M23.8387 2.27597C24.0816 2.0245 24.216 1.6877 24.2129 1.33811C24.2099 0.988509 24.0697 0.654093 23.8225 0.406882C23.5753 0.159671 23.2408 0.0194457 22.8912 0.0164078C22.5417 0.0133699 22.2048 0.147762 21.9534 0.39064L11.0574 11.2866C9.80757 12.5368 9.10547 14.2322 9.10547 16C9.10547 17.7677 9.80757 19.4631 11.0574 20.7133L21.9534 31.6093C22.2048 31.8522 22.5417 31.9866 22.8912 31.9835C23.2408 31.9805 23.5753 31.8403 23.8225 31.5931C24.0697 31.3459 24.2099 31.0114 24.2129 30.6618C24.216 30.3122 24.0816 29.9754 23.8387 29.724L12.9427 18.828C12.1928 18.0779 11.7716 17.0606 11.7716 16C11.7716 14.9393 12.1928 13.9221 12.9427 13.172L23.8387 2.27597Z"
+              fill="#C2C8CD" />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+		<section class="faq" id="faq">
+  <div class="container">
+    <h2 class="faq__title">Вопросы и ответы</h2>
+    <div class="faq__accordion">
+      <div class="faq__item">
+        <button class="faq__header">
+          <span class="faq__question">Подтверждено: создание наших соотечественников не замутнено пропагандой?</span>
+          <svg class="faq__icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M17 11H13V7C13 6.73478 12.8946 6.48043 12.7071 6.29289C12.5196 6.10536 12.2652 6 12 6C11.7348 6 11.4804 6.10536 11.2929 6.29289C11.1054 6.48043 11 6.73478 11 7V11H7C6.73478 11 6.48043 11.1054 6.29289 11.2929C6.10536 11.4804 6 11.7348 6 12C6 12.2652 6.10536 12.5196 6.29289 12.7071C6.48043 12.8946 6.73478 13 7 13H11V17C11 17.2652 11.1054 17.5196 11.2929 17.7071C11.4804 17.8946 11.7348 18 12 18C12.2652 18 12.5196 17.8946 12.7071 17.7071C12.8946 17.5196 13 17.2652 13 17V13H17C17.2652 13 17.5196 12.8946 17.7071 12.7071C17.8946 12.5196 18 12.2652 18 12C18 11.7348 17.8946 11.4804 17.7071 11.2929C17.5196 11.1054 17.2652 11 17 11Z"
+              fill="#191C1F" />
+            <circle cx="12" cy="12" r="11" stroke="#191C1F" stroke-width="2" />
+          </svg>
+        </button>
+        <div class="faq__content">
+          <div class="faq__answer">
+            Здесь будет текст ответа на первый вопрос.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq__item">
+        <button class="faq__header">
+          <span class="faq__question">Прототип нового сервиса - это как трубный призыв?</span>
+          <svg class="faq__icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M17 11H13V7C13 6.73478 12.8946 6.48043 12.7071 6.29289C12.5196 6.10536 12.2652 6 12 6C11.7348 6 11.4804 6.10536 11.2929 6.29289C11.1054 6.48043 11 6.73478 11 7V11H7C6.73478 11 6.48043 11.1054 6.29289 11.2929C6.10536 11.4804 6 11.7348 6 12C6 12.2652 6.10536 12.5196 6.29289 12.7071C6.48043 12.8946 6.73478 13 7 13H11V17C11 17.2652 11.1054 17.5196 11.2929 17.7071C11.4804 17.8946 11.7348 18 12 18C12.2652 18 12.5196 17.8946 12.7071 17.7071C12.8946 17.5196 13 17.2652 13 17V13H17C17.2652 13 17.5196 12.8946 17.7071 12.7071C17.8946 12.5196 18 12.2652 18 12C18 11.7348 17.8946 11.4804 17.7071 11.2929C17.5196 11.1054 17.2652 11 17 11Z"
+              fill="#191C1F" />
+            <circle cx="12" cy="12" r="11" stroke="#191C1F" stroke-width="2" />
+          </svg>
+
+        </button>
+        <div class="faq__content">
+          <div class="faq__answer">
+            Здесь будет текст ответа на второй вопрос.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq__item">
+        <button class="faq__header">
+          <span class="faq__question">Частокол на границе продолжает удивлять?</span>
+          <svg class="faq__icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M17 11H13V7C13 6.73478 12.8946 6.48043 12.7071 6.29289C12.5196 6.10536 12.2652 6 12 6C11.7348 6 11.4804 6.10536 11.2929 6.29289C11.1054 6.48043 11 6.73478 11 7V11H7C6.73478 11 6.48043 11.1054 6.29289 11.2929C6.10536 11.4804 6 11.7348 6 12C6 12.2652 6.10536 12.5196 6.29289 12.7071C6.48043 12.8946 6.73478 13 7 13H11V17C11 17.2652 11.1054 17.5196 11.2929 17.7071C11.4804 17.8946 11.7348 18 12 18C12.2652 18 12.5196 17.8946 12.7071 17.7071C12.8946 17.5196 13 17.2652 13 17V13H17C17.2652 13 17.5196 12.8946 17.7071 12.7071C17.8946 12.5196 18 12.2652 18 12C18 11.7348 17.8946 11.4804 17.7071 11.2929C17.5196 11.1054 17.2652 11 17 11Z"
+              fill="#191C1F" />
+            <circle cx="12" cy="12" r="11" stroke="#191C1F" stroke-width="2" />
+          </svg>
+        </button>
+        <div class="faq__content">
+          <div class="faq__answer">
+            В частности, дальнейшее развитие различных форм деятельности позволяет выполнить важные задания по
+            разработке
+            дальнейших направлений развития. Предварительные выводы неутешительны: экономическая повестка сегодняшнего
+            дня
+            говорит о возможностях существующих финансовых и административных условий.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq__item">
+        <button class="faq__header">
+          <span class="faq__question">Очевидцы сообщают, что слышали грохот грома градущих изменений?</span>
+
+          <svg class="faq__icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M17 11H13V7C13 6.73478 12.8946 6.48043 12.7071 6.29289C12.5196 6.10536 12.2652 6 12 6C11.7348 6 11.4804 6.10536 11.2929 6.29289C11.1054 6.48043 11 6.73478 11 7V11H7C6.73478 11 6.48043 11.1054 6.29289 11.2929C6.10536 11.4804 6 11.7348 6 12C6 12.2652 6.10536 12.5196 6.29289 12.7071C6.48043 12.8946 6.73478 13 7 13H11V17C11 17.2652 11.1054 17.5196 11.2929 17.7071C11.4804 17.8946 11.7348 18 12 18C12.2652 18 12.5196 17.8946 12.7071 17.7071C12.8946 17.5196 13 17.2652 13 17V13H17C17.2652 13 17.5196 12.8946 17.7071 12.7071C17.8946 12.5196 18 12.2652 18 12C18 11.7348 17.8946 11.4804 17.7071 11.2929C17.5196 11.1054 17.2652 11 17 11Z"
+              fill="#191C1F" />
+            <circle cx="12" cy="12" r="11" stroke="#191C1F" stroke-width="2" />
+          </svg>
+
+        </button>
+        <div class="faq__content">
+          <div class="faq__answer">
+            Здесь будет текст ответа на четвертый вопрос.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq__item">
+        <button class="faq__header">
+          <span class="faq__question">
+            И по сей день в центральных регионах звучит перекатами печальный план оппозиции?
+          </span>
+
+          <svg class="faq__icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M17 11H13V7C13 6.73478 12.8946 6.48043 12.7071 6.29289C12.5196 6.10536 12.2652 6 12 6C11.7348 6 11.4804 6.10536 11.2929 6.29289C11.1054 6.48043 11 6.73478 11 7V11H7C6.73478 11 6.48043 11.1054 6.29289 11.2929C6.10536 11.4804 6 11.7348 6 12C6 12.2652 6.10536 12.5196 6.29289 12.7071C6.48043 12.8946 6.73478 13 7 13H11V17C11 17.2652 11.1054 17.5196 11.2929 17.7071C11.4804 17.8946 11.7348 18 12 18C12.2652 18 12.5196 17.8946 12.7071 17.7071C12.8946 17.5196 13 17.2652 13 17V13H17C17.2652 13 17.5196 12.8946 17.7071 12.7071C17.8946 12.5196 18 12.2652 18 12C18 11.7348 17.8946 11.4804 17.7071 11.2929C17.5196 11.1054 17.2652 11 17 11Z"
+              fill="#191C1F" />
+            <circle cx="12" cy="12" r="11" stroke="#191C1F" stroke-width="2" />
+          </svg>
+
+        </button>
+        <div class="faq__content">
+          <div class="faq__answer">
+            Здесь будет текст ответа на шестой вопрос.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq__item">
+        <button class="faq__header">
+          <span class="faq__question">Нынче никто не может себе позволить инициировать треск разлетающихся
+            скреп?</span>
+
+          <svg class="faq__icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M17 11H13V7C13 6.73478 12.8946 6.48043 12.7071 6.29289C12.5196 6.10536 12.2652 6 12 6C11.7348 6 11.4804 6.10536 11.2929 6.29289C11.1054 6.48043 11 6.73478 11 7V11H7C6.73478 11 6.48043 11.1054 6.29289 11.2929C6.10536 11.4804 6 11.7348 6 12C6 12.2652 6.10536 12.5196 6.29289 12.7071C6.48043 12.8946 6.73478 13 7 13H11V17C11 17.2652 11.1054 17.5196 11.2929 17.7071C11.4804 17.8946 11.7348 18 12 18C12.2652 18 12.5196 17.8946 12.7071 17.7071C12.8946 17.5196 13 17.2652 13 17V13H17C17.2652 13 17.5196 12.8946 17.7071 12.7071C17.8946 12.5196 18 12.2652 18 12C18 11.7348 17.8946 11.4804 17.7071 11.2929C17.5196 11.1054 17.2652 11 17 11Z"
+              fill="#191C1F" />
+            <circle cx="12" cy="12" r="11" stroke="#191C1F" stroke-width="2" />
+          </svg>
+
+        </button>
+        <div class="faq__content">
+          <div class="faq__answer">
+            Здесь будет текст ответа на шестой вопрос.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq__item">
+        <button class="faq__header">
+          <span class="faq__question">Высококачественный прототип будущего проекта обнадёживает?</span>
+          <svg class="faq__icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M17 11H13V7C13 6.73478 12.8946 6.48043 12.7071 6.29289C12.5196 6.10536 12.2652 6 12 6C11.7348 6 11.4804 6.10536 11.2929 6.29289C11.1054 6.48043 11 6.73478 11 7V11H7C6.73478 11 6.48043 11.1054 6.29289 11.2929C6.10536 11.4804 6 11.7348 6 12C6 12.2652 6.10536 12.5196 6.29289 12.7071C6.48043 12.8946 6.73478 13 7 13H11V17C11 17.2652 11.1054 17.5196 11.2929 17.7071C11.4804 17.8946 11.7348 18 12 18C12.2652 18 12.5196 17.8946 12.7071 17.7071C12.8946 17.5196 13 17.2652 13 17V13H17C17.2652 13 17.5196 12.8946 17.7071 12.7071C17.8946 12.5196 18 12.2652 18 12C18 11.7348 17.8946 11.4804 17.7071 11.2929C17.5196 11.1054 17.2652 11 17 11Z"
+              fill="#191C1F" />
+            <circle cx="12" cy="12" r="11" stroke="#191C1F" stroke-width="2" />
+          </svg>
+        </button>
+        <div class="faq__content">
+          <div class="faq__answer">
+            Здесь будет текст ответа на последний вопрос.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+		<section class="credits">
+  <div class="container">
+    <h2 class="credits__title sr-only">Опросы людей об микрокредитах</h2>
+    <div class="credits__items">
+      <div class="credits__item">
+        <h3 class="credits__item-title">Опрошенных пользовались микрокредитами</h3>
+        <div class="credits__item-descr">Не могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам
+          помогает отказаться от кредитов и экономить
+          деньги на процентах и штрафах Не могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам
+          помогает
+          отказаться от кредитов и экономить деньги на процентах и штрафах</div>
+      </div>
+      <div class="credits__item">
+        <h3 class="credits__item-title">Опрошенных пользовались микрокредитами</h3>
+        <div class="credits__item-descr">Не могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам
+          помогает отказаться от кредитов и экономить
+          деньги на процентах и штрафах Не могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам
+          помогает
+          отказаться от кредитов и экономить деньги на процентах и штрафахНе могли покрыть внезапные траты свыше 7000 ₽.
+          Доступ к
+          заработанным деньгам помогает отказаться от кредитов и экономить деньги на процентах и штрафах</div>
+      </div>
+      <div class="credits__item">
+        <h3 class="credits__item-title">Опрошенных пользовались микрокредитами</h3>
+        <div class="credits__item-descr">Не могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам
+          помогает отказаться от кредитов и экономить
+          деньги на процентах и штрафах Не могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам
+          помогает
+          отказаться от кредитов и экономить деньги на процентах и штрафахНе могли покрыть внезапные траты свыше 7000 ₽.
+          Доступ к
+          заработанным деньгам помогает отказаться от кредитов и экономить деньги на процентах и штрафах</div>
+      </div>
+      <div class="credits__item">
+        <h3 class="credits__item-title">Опрошенных пользовались микрокредитами</h3>
+        <div class="credits__item-descr">Не могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам
+          помогает отказаться от кредитов и экономить
+          деньги на процентах и штрафах Не могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам
+          помогает
+          отказаться от кредитов и экономить деньги на процентах и штрафах</div>
+      </div>
+    </div>
+  </div>
+</section>
+		<section class="form" id="form">
+  <div class="container form__container">
+    <h2 class="form__title">Отправь форму</h2>
+    <form class="form__body" action="#" method="POST">
+      <div class="form__fields">
+        <div class="form__field">
+          <input type="text" class="form__input" name="name" placeholder="Имя" required>
+          <p class="form__helper"></p>
+        </div>
+        <div class="form__field">
+          <input type="tel" class="form__input" name="phone" placeholder="Телефон" required>
+          <p class="form__helper"></p>
+        </div>
+      </div>
+      <div class="form__footer">
+        <label class="form__checkbox-wrapper">
+          <input type="checkbox" class="form__checkbox" name="agreement" required>
+          <span class="form__checkbox-label">Согласен, отказываюсь</span>
+        </label>
+        <button type="submit" class="form__submit">Отправить</button>
+      </div>
+    </form>
+  </div>
+</section>
+	</main>
+	<footer class="footer">
+  <div class="container">
+    <div class="footer__title">© 2021 Лаборатория интернет</div>
+  </div>
+</footer>
+	<script src="./libs/swiper/swiper-bundle.min.js"></script>
+	<script src="./js/index.bundle.js"></script>
+</body>
+
+</html>
