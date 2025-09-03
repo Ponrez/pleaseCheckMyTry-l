@@ -776,9 +776,12 @@ body.lock {
   padding-bottom: 4px;
 }
 
-.header__link:hover,
-.header__link:focus-visible {
+.header__link:hover {
   background-size: 100% 1px;
+}
+
+.header__nav.active .header__link:hover {
+  background-size: unset;
 }
 
 .header__title-wrapper {
