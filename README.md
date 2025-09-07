@@ -1,6 +1,6 @@
 Здравствуйте
 
-Ссылка на сайт - https://ponrez.github.io/pleaseCheckMyTry-l/
+Ссылка на результат - https://yokatta-l.github.io/pleaseCheckMyTry-l/
 
 ## Использую исходя из тз:
 
